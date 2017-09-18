@@ -26,7 +26,7 @@ echo "HIGH = " $HIGH
 #    we create a variable called LIST
 #    we are using stock tickers as an identifier of each stock
 #    see https://finance.yahoo.com/lookup
-LIST='AAPL GOOG MSFT'
+LIST='AAPL FB GOOG MSFT'
 echo "LIST = " $LIST
 
 # 4. we write a for loop that will iterate over LIST and download a csv file
